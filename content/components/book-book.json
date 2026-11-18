@@ -1,0 +1,97 @@
+{
+  "name": "book-book",
+  "label": "Send a note",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "photo": {
+      "kind": "image",
+      "label": "Picture"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small label"
+    },
+    "priceRows": {
+      "kind": "list",
+      "label": "Price rows",
+      "fields": {
+        "priceRow": {
+          "kind": "text",
+          "label": "Price row"
+        },
+        "priceRow2": {
+          "kind": "text",
+          "label": "Price row 2"
+        }
+      },
+      "max": 100,
+      "itemLabel": "priceRow"
+    },
+    "priceCard": {
+      "kind": "text",
+      "label": "Price card"
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Text 2"
+    },
+    "url": {
+      "kind": "link",
+      "label": "Link"
+    },
+    "urlLabel": {
+      "kind": "text",
+      "label": "Link text"
+    }
+  },
+  "defaults": {
+    "photo": {
+      "src": "media/2026/11/fireside-hxw9.jpg",
+      "alt": "Courtney smiling by the fireside, hands open",
+      "width": 10,
+      "height": 6,
+      "mediaId": "med_hxw9yqvmv7"
+    },
+    "text": "Share a little about what you're seeking. I'll reply within 2–4 days to find a time and shape the session together.",
+    "eyebrow": "Sessions · 90 minutes",
+    "priceRows": [
+      {
+        "priceRow": "Healing or voice — online or in my Boulder space",
+        "priceRow2": "$150"
+      },
+      {
+        "priceRow": "Healing or voice — I come to you, in Boulder",
+        "priceRow2": "$175"
+      },
+      {
+        "priceRow": "Tea ceremony — per person",
+        "priceRow2": "$40"
+      },
+      {
+        "priceRow": "Tea ceremony — in-person group at your home",
+        "priceRow2": "$300"
+      }
+    ],
+    "priceCard": "Blessing ceremonies are shaped to your gathering — just ask.",
+    "text2": "Boulder, Colorado · Online via Zoom",
+    "url": {
+      "type": "email",
+      "email": "courtneyacamo@gmail.com"
+    },
+    "urlLabel": "courtneyacamo@gmail.com"
+  },
+  "template": "<section class=\"i-book s-5\"> <div class=\"wrap split s-4\"> <div class=\"copy s-3\"> <div class=\"arch s-2\">{{image photo class=\"os-ci s-1\"}}</div> <p>{{text}}</p> <div class=\"price-card\"> <p class=\"eyebrow\">{{eyebrow}}</p> {{#each priceRows}}<div class=\"price-row\"><span>{{priceRow}}</span><strong>{{priceRow2}}</strong></div>{{/each}} <small>{{priceCard}}</small> </div> <p>{{text2}}<br><a href=\"{{href url}}\">{{urlLabel}}</a></p> </div>  </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--card:var(--os-color-surface);--rose:var(--os-color-accent);--gold:#C9A04E;--line-gold:var(--os-color-border);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n[class~=\"os-ci\"]{max-width:100%;display:block}\nimg{display:block}\na{color:var(--teal)}\na:hover{color:var(--rose)}\nh2{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.eyebrow{font-size:14px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:400}\nsection{padding:100px 0}\n.split{display:flex;flex-wrap:wrap;gap:64px;align-items:center}\n.split > .copy{flex:1 1 400px;display:flex;flex-direction:column;gap:20px}\n.arch [class~=\"os-ci\"]{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px}\n.arch img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px;outline:1px solid var(--gold);outline-offset:12px}\n.price-card{background:var(--card);border:1px solid var(--line-gold);border-radius:20px;padding:26px 28px;display:flex;flex-direction:column;gap:14px}\n.price-row{display:flex;justify-content:space-between;gap:16px;align-items:baseline;border-bottom:1px solid #EFE4C9;padding-bottom:12px}\n.price-row:last-of-type{border-bottom:0}\n.price-row strong{font-family:var(--serif);font-size:30px;font-weight:500;color:var(--teal)}\n.price-card small{font-size:15px;line-height:1.6;color:#4F6E70}\n.form-card{background:var(--card);border:1px solid var(--line-gold);border-radius:200px 200px 28px 28px;padding:90px 40px 44px;display:flex;flex-direction:column;gap:20px}\n.form-card h2{text-align:center;font-size:36px;font-weight:400}\nlabel{display:block;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);font-weight:400;margin-bottom:8px}\ninput,select,textarea{width:100%;font-family:var(--sans);font-size:16px;padding:15px 18px;border-radius:14px;border:1px solid #D8C49A;background:#fff;color:var(--ink)}\nbutton{font-family:var(--sans);font-size:15px;letter-spacing:.14em;text-transform:uppercase;padding:17px 36px;border-radius:999px;border:0;background:var(--rose);color:#fff;cursor:pointer;min-height:44px}\n@media (max-width:767px){section{padding:72px 0}}\n@media (max-width:767px){.split{gap:44px}}\n@media (max-width:767px){.form-card{padding:72px 22px 32px;border-radius:160px 160px 24px 24px}}\n:scope:scope:scope .s-1{object-position:75% center}\n:scope:scope:scope .s-2{max-width:440px}\n:scope:scope:scope .s-3{flex:1 1 360px}\n:scope:scope:scope .s-4{align-items:flex-start}\n:scope:scope:scope .s-5{padding-top:30px}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

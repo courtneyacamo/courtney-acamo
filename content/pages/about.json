@@ -1,0 +1,225 @@
+{
+  "id": "pg_ay78ys0v76",
+  "title": "Hello, I'm Courtney",
+  "slug": "about",
+  "seo": {
+    "title": "About",
+    "description": "Courtney Acamo is a ceremonialist, healer and singer in Boulder, Colorado."
+  },
+  "sections": [
+    {
+      "id": "sec_xamef681j5",
+      "preset": "component/about-temple@1",
+      "label": "Hello, I'm Courtney",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_e9aktwt0nx",
+          "type": "component/about-temple",
+          "v": 1,
+          "fields": {
+            "brand": {
+              "type": "page",
+              "page": "pg_f9syzf0gc4"
+            },
+            "brandLabel": "Courtney Acamo",
+            "siteNavItems": [
+              {
+                "url": {
+                  "type": "page",
+                  "page": "pg_f9syzf0gc4"
+                },
+                "urlLabel": "Home"
+              },
+              {
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e"
+                },
+                "urlLabel": "Offerings"
+              }
+            ],
+            "current": {
+              "type": "page",
+              "page": "pg_ay78ys0v76"
+            },
+            "currentLabel": "About",
+            "navBook": {
+              "type": "page",
+              "page": "pg_w7x30r0gm8"
+            },
+            "navBookLabel": "Book a session",
+            "photo": {
+              "src": "media/2026/11/chin-on-hand-w2j3.jpg",
+              "alt": "Portrait of Courtney smiling, resting her chin on her hand",
+              "width": 8,
+              "height": 10,
+              "mediaId": "med_w2j305ehsx"
+            },
+            "eyebrow": "About",
+            "goldText": "Hello, I'm Courtney",
+            "script": "ceremony is my love language",
+            "text": "I'm a ceremonialist, healer and singer living in Boulder, Colorado. My work is about creating spaces where people can finally exhale — where the body feels safe, the heart opens and the voice remembers its song."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_rfxfj4nx2b",
+      "preset": "component/about-glimpses@1",
+      "label": "Glimpses",
+      "anchor": "glimpses",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_gmx6qa18mq",
+          "type": "component/about-glimpses",
+          "v": 1,
+          "fields": {
+            "galleryItems": [
+              {
+                "photo": {
+                  "src": "media/2026/11/tide-pool-9drc.jpg",
+                  "alt": "Courtney kneeling in a sunlit tide pool in white",
+                  "width": 7,
+                  "height": 10,
+                  "mediaId": "med_9drcq3vgx0"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/laughing-5kh8.jpg",
+                  "alt": "Courtney laughing in warm sunlight",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_5kh83y30vt"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/looking-up-dx8k.jpg",
+                  "alt": "Courtney looking upward with a soft smile",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_dx8k2qz2mr"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/grey-wrap-pc90.jpg",
+                  "alt": "Courtney smiling in a soft grey wrap",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_pc90fm0t31"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_9fdq9rbrrs",
+      "preset": "component/about-sacred@1",
+      "label": "What I hold sacred",
+      "anchor": "sacred",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_t1vgwfcps7",
+          "type": "component/about-sacred",
+          "v": 1,
+          "fields": {
+            "heading": "What I hold sacred",
+            "heading2": "Earth",
+            "text": "Grounding the body, honoring the seasons and letting nature teach us to slow down.",
+            "heading3": "Spirit",
+            "text2": "Prayer, intuition and the unseen — the light that moves through every ceremony.",
+            "goldText": "Voice",
+            "text3": "Sound as medicine. Every person deserves to be heard — first of all by themselves."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_dfyhrzkwsn",
+      "preset": "component/about-sit-with-me@1",
+      "label": "Sit with me",
+      "anchor": "sit-with-me",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_yeztv9q641",
+          "type": "component/about-sit-with-me",
+          "v": 1,
+          "fields": {
+            "script": "your seat is waiting",
+            "heading": "Sit with me",
+            "text": "Tea, blessing, healing or voice — tell me what you're moving through and we'll find the right way to begin.",
+            "cta": {
+              "type": "page",
+              "page": "pg_w7x30r0gm8"
+            },
+            "ctaLabel": "Book a session"
+          }
+        }
+      ]
+    }
+  ]
+}

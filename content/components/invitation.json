@@ -1,0 +1,29 @@
+{
+  "name": "invitation",
+  "label": "Invitation",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "goldText": {
+      "kind": "text",
+      "label": "Gold text",
+      "multiline": true
+    },
+    "script": {
+      "kind": "text",
+      "label": "Script"
+    }
+  },
+  "defaults": {
+    "goldText": "“Every cup, every prayer, every note is an invitation to soften — and to remember the light you already carry.”",
+    "script": "Courtney"
+  },
+  "template": "<section class=\"quote-band i-invitation\"> <blockquote class=\"gold-text\">{{goldText}}</blockquote> <p class=\"script\">{{script}}</p> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--rose:var(--os-color-accent);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif;--script:'Pinyon Script', cursive}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\np{margin:0}\n.gold-text{background:linear-gradient(100deg,#B8862E 0%,#F6E2A8 38%,#D8B160 60%,#9E7425 100%);-webkit-background-clip:text;background-clip:text;color:transparent}\n.script{font-family:var(--script);color:var(--rose);line-height:1.1}\nsection{padding:100px 0}\n.quote-band{position:relative;padding:150px 0;text-align:center;color:#fff;background:linear-gradient(180deg,rgba(7,31,34,.92),rgba(60,20,52,.88))}\n.quote-band blockquote{margin:0 auto;max-width:900px;padding:0 24px;font-family:var(--serif);font-style:italic;font-size:clamp(30px,4vw,52px);line-height:1.3}\n.quote-band .script{color:#F2B8CF;font-size:40px;margin-top:24px}\n@media (max-width:767px){section{padding:72px 0}}\n@media (max-width:767px){.quote-band{padding:100px 0}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

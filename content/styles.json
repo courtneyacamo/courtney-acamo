@@ -1,0 +1,79 @@
+{
+  "choices": {
+    "palette": {
+      "brand": "#a3305f",
+      "neutral": "warm",
+      "contrast": "standard",
+      "source": "brand"
+    },
+    "pairing": "cormorant-jost",
+    "density": "comfortable",
+    "shape": "round",
+    "buttons": "pill-gradient",
+    "motion": "subtle",
+    "imageTreatment": "none",
+    "typography": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "category": "serif",
+        "italic": true
+      },
+      "body": {
+        "family": "Jost",
+        "category": "sans-serif"
+      },
+      "scale": {
+        "button": {
+          "size": 15,
+          "letterSpacing": 0.14,
+          "case": "uppercase",
+          "weight": 400
+        },
+        "wordmark": {
+          "size": 26,
+          "letterSpacing": 0.06,
+          "weight": 500,
+          "font": "heading"
+        }
+      }
+    }
+  },
+  "overrides": {
+    "color": {
+      "background": {
+        "$value": "#fbf8f1",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#fffdf8",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#1e3b3d",
+        "$type": "color"
+      },
+      "border": {
+        "$value": "#e2cfa0",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#a3305f",
+        "$type": "color"
+      },
+      "dark": {
+        "background": {
+          "$value": "#1e3b3d",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#fbf8f1",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#fbf8f1",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

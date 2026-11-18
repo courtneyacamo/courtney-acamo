@@ -1,0 +1,121 @@
+{
+  "title": "Courtney Acamo",
+  "tagline": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo, in Boulder, Colorado and online.",
+  "nav": [
+    {
+      "type": "page",
+      "page": "pg_f9syzf0gc4",
+      "label": "Home"
+    },
+    {
+      "type": "page",
+      "page": "pg_2f6zk4nw6e",
+      "label": "Offerings"
+    },
+    {
+      "type": "page",
+      "page": "pg_ay78ys0v76",
+      "label": "About"
+    },
+    {
+      "type": "page",
+      "page": "pg_w7x30r0gm8",
+      "label": "Book a session"
+    }
+  ],
+  "header": {
+    "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "fullscreen"
+  },
+  "footer": {
+    "id": "sec_qy5y1jg4z3",
+    "preset": "component/site-footer@1",
+    "label": "Footer",
+    "layout": {
+      "mode": "stack",
+      "columns": {
+        "d": [
+          12
+        ]
+      },
+      "width": "full"
+    },
+    "style": {
+      "colorTheme": "light",
+      "padding": {
+        "d": "none"
+      }
+    },
+    "blocks": [
+      {
+        "id": "blk_ht67bwa1mb",
+        "type": "component/site-footer",
+        "v": 1,
+        "fields": {
+          "name": "Courtney Acamo",
+          "script": "rooted in earth, open to light",
+          "links": [
+            {
+              "url": {
+                "type": "page",
+                "page": "pg_2f6zk4nw6e"
+              },
+              "urlLabel": "Offerings"
+            },
+            {
+              "url": {
+                "type": "page",
+                "page": "pg_ay78ys0v76"
+              },
+              "urlLabel": "About"
+            },
+            {
+              "url": {
+                "type": "page",
+                "page": "pg_w7x30r0gm8"
+              },
+              "urlLabel": "Book"
+            },
+            {
+              "url": {
+                "type": "url",
+                "url": "https://www.instagram.com/courtneyacamo"
+              },
+              "urlLabel": "Instagram"
+            },
+            {
+              "url": {
+                "type": "url",
+                "url": "https://open.spotify.com/artist/5FqhYVXpMAaaJbwcFWSXhf"
+              },
+              "urlLabel": "Spotify"
+            }
+          ],
+          "legal": "© 2026 Courtney Acamo · Boulder, Colorado & online"
+        }
+      }
+    ]
+  },
+  "social": [
+    {
+      "network": "instagram",
+      "url": "https://www.instagram.com/courtneyacamo"
+    },
+    {
+      "network": "spotify",
+      "url": "https://open.spotify.com/artist/5FqhYVXpMAaaJbwcFWSXhf"
+    }
+  ],
+  "seo": {
+    "titleTemplate": "%s — Courtney Acamo",
+    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo, in Boulder, Colorado and online."
+  },
+  "locale": "en",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  }
+}

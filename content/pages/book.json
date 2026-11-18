@@ -1,0 +1,220 @@
+{
+  "id": "pg_w7x30r0gm8",
+  "title": "Let's begin with a gentle hello",
+  "slug": "book",
+  "seo": {
+    "title": "Book a Session",
+    "description": "Book a tea ceremony, blessing ceremony, intuitive healing or vocal empowerment session with Courtney Acamo."
+  },
+  "sections": [
+    {
+      "id": "sec_s0zpf992gp",
+      "preset": "component/book-temple@1",
+      "label": "Let's begin with a gentle hello",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_70f00k0f8w",
+          "type": "component/book-temple",
+          "v": 1,
+          "fields": {
+            "brand": {
+              "type": "page",
+              "page": "pg_f9syzf0gc4"
+            },
+            "brandLabel": "Courtney Acamo",
+            "siteNavItems": [
+              {
+                "url": {
+                  "type": "page",
+                  "page": "pg_f9syzf0gc4"
+                },
+                "urlLabel": "Home"
+              },
+              {
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e"
+                },
+                "urlLabel": "Offerings"
+              },
+              {
+                "url": {
+                  "type": "page",
+                  "page": "pg_ay78ys0v76"
+                },
+                "urlLabel": "About"
+              }
+            ],
+            "navBook": {
+              "type": "page",
+              "page": "pg_w7x30r0gm8"
+            },
+            "navBookLabel": "Book a session",
+            "eyebrow": "Book a session",
+            "goldText": "Let's begin with a gentle hello",
+            "script": "your seat is waiting"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_d27mpnxcxb",
+      "preset": "component/book-book@1",
+      "label": "Send a note",
+      "anchor": "book",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_y5b9hnpeqf",
+          "type": "component/book-book",
+          "v": 1,
+          "fields": {
+            "photo": {
+              "src": "media/2026/11/fireside-hxw9.jpg",
+              "alt": "Courtney smiling by the fireside, hands open",
+              "width": 10,
+              "height": 6,
+              "mediaId": "med_hxw9yqvmv7"
+            },
+            "text": "Share a little about what you're seeking. I'll reply within 2–4 days to find a time and shape the session together.",
+            "eyebrow": "Sessions · 90 minutes",
+            "priceRows": [
+              {
+                "priceRow": "Healing or voice — online or in my Boulder space",
+                "priceRow2": "$150"
+              },
+              {
+                "priceRow": "Healing or voice — I come to you, in Boulder",
+                "priceRow2": "$175"
+              },
+              {
+                "priceRow": "Tea ceremony — per person",
+                "priceRow2": "$40"
+              },
+              {
+                "priceRow": "Tea ceremony — in-person group at your home",
+                "priceRow2": "$300"
+              }
+            ],
+            "priceCard": "Blessing ceremonies are shaped to your gathering — just ask.",
+            "text2": "Boulder, Colorado · Online via Zoom",
+            "url": {
+              "type": "email",
+              "email": "courtneyacamo@gmail.com"
+            },
+            "urlLabel": "courtneyacamo@gmail.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_20wa8yvap1",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_zsja38kmqy",
+          "type": "form",
+          "v": 1,
+          "fields": {
+            "form": {
+              "id": "frm_b47sbw718k",
+              "name": "Contact form",
+              "fields": [
+                {
+                  "name": "name",
+                  "label": "Name",
+                  "required": true,
+                  "type": "text"
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "required": true,
+                  "type": "email"
+                },
+                {
+                  "name": "i_m_drawn_to",
+                  "label": "I'm drawn to",
+                  "type": "select",
+                  "options": [
+                    "Tea ceremony",
+                    "Blessing ceremony",
+                    "Intuitive healing",
+                    "Vocal empowerment",
+                    "Not sure yet"
+                  ]
+                },
+                {
+                  "name": "where",
+                  "label": "Where",
+                  "type": "select",
+                  "options": [
+                    "Online",
+                    "Courtney's Boulder space",
+                    "At my home in Boulder"
+                  ]
+                },
+                {
+                  "name": "preferred_date",
+                  "label": "Preferred date",
+                  "type": "date"
+                },
+                {
+                  "name": "what_are_you_moving_through",
+                  "label": "What are you moving through?",
+                  "type": "textarea"
+                }
+              ],
+              "submitLabel": "Send with love",
+              "success": {
+                "type": "message",
+                "message": "Thank you! We'll be in touch soon."
+              },
+              "notifyOwner": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

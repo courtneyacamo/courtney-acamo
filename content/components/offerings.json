@@ -1,0 +1,126 @@
+{
+  "name": "offerings",
+  "label": "Ways we can gather",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small label"
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "photo": {
+          "kind": "image",
+          "label": "Picture"
+        },
+        "heading": {
+          "kind": "text",
+          "label": "Heading"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text"
+        },
+        "url": {
+          "kind": "link",
+          "label": "Link"
+        },
+        "urlLabel": {
+          "kind": "text",
+          "label": "Link text"
+        }
+      },
+      "max": 100,
+      "itemLabel": "heading"
+    }
+  },
+  "defaults": {
+    "eyebrow": "Offerings",
+    "heading": "Ways we can gather",
+    "cards": [
+      {
+        "photo": {
+          "src": "media/2026/11/tea-bowl-s8sx.jpg",
+          "alt": "Hands holding a ceramic tea bowl beside yellow yarrow flowers",
+          "width": 8,
+          "height": 10,
+          "mediaId": "med_s8sx5v241h"
+        },
+        "heading": "Tea Ceremonies",
+        "text": "Leaf, water and quiet. A slow ritual to arrive, settle and listen inward.",
+        "url": {
+          "type": "page",
+          "page": "pg_2f6zk4nw6e",
+          "anchor": "tea"
+        },
+        "urlLabel": "Learn more"
+      },
+      {
+        "photo": {
+          "src": "media/2026/11/blessing-yk0w.jpg",
+          "alt": "Courtney offering a blessing among red silk and roses",
+          "width": 6,
+          "height": 10,
+          "mediaId": "med_yk0wxgntm4"
+        },
+        "heading": "Blessing Ceremonies",
+        "text": "Prayer and ritual for baby showers, birthdays and fresh starts — or a simple energetic reset.",
+        "url": {
+          "type": "page",
+          "page": "pg_2f6zk4nw6e",
+          "anchor": "blessing"
+        },
+        "urlLabel": "Learn more"
+      },
+      {
+        "photo": {
+          "src": "media/2026/11/prayer-hands-d84v.jpg",
+          "alt": "Courtney with her hands together in prayer",
+          "width": 10,
+          "height": 8,
+          "mediaId": "med_d84v32rtzc"
+        },
+        "heading": "Intuitive Healing",
+        "text": "One-on-one sessions to calm your system, let go of what's heavy and hear your own knowing again.",
+        "url": {
+          "type": "page",
+          "page": "pg_2f6zk4nw6e",
+          "anchor": "healing"
+        },
+        "urlLabel": "Learn more"
+      },
+      {
+        "photo": {
+          "src": "media/2026/11/moon-circle-82d5.jpg",
+          "alt": "A circle of women in white raising their arms under the full moon",
+          "width": 8,
+          "height": 10,
+          "mediaId": "med_82d5gs046b"
+        },
+        "heading": "Vocal Empowerment",
+        "text": "Breath, sound and play to free your voice — in song, in speech, in life.",
+        "url": {
+          "type": "page",
+          "page": "pg_2f6zk4nw6e",
+          "anchor": "voice"
+        },
+        "urlLabel": "Learn more"
+      }
+    ]
+  },
+  "template": "<section class=\"bg-sand i-offerings\"> <div class=\"wrap\"> <div class=\"center\"> <p class=\"eyebrow\">{{eyebrow}}</p> <h2>{{heading}}</h2> </div> <div class=\"cards\"> {{#each cards}}<article class=\"card\"> {{image photo class=\"os-ci\"}} <h3>{{heading}}</h3> <p>{{text}}</p> <a href=\"{{href url}}\">{{urlLabel}}</a> </article>{{/each}} </div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--ink-soft:#2D4F51;--teal:#0F5457;--sand:#F5EEE2;--card:var(--os-color-surface);--rose:var(--os-color-accent);--line-gold:var(--os-color-border);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n[class~=\"os-ci\"]{max-width:100%;display:block}\nimg{display:block}\na{color:var(--teal)}\na:hover{color:var(--rose)}\nh2,h3{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.eyebrow{font-size:14px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:400}\nsection{padding:100px 0}\n.center{text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}\n.center h2{font-size:clamp(40px,5vw,64px)}\n.bg-sand{background:radial-gradient(ellipse 55% 45% at 50% 0%,rgba(240,200,110,.18),rgba(240,200,110,0) 70%),var(--sand)}\n.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px;margin-top:48px}\n.card{background:var(--card);border:1px solid var(--line-gold);border-radius:200px 200px 20px 20px;padding:12px 12px 32px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;box-shadow:0 24px 60px -40px rgba(160,116,37,.55)}\n.card [class~=\"os-ci\"]{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:200px 200px 12px 12px}\n.card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:200px 200px 12px 12px}\n.card h3{font-size:30px;font-weight:500;margin-top:6px}\n.card p{font-size:16px;line-height:1.7;padding:0 16px;color:var(--ink-soft)}\n.card a{margin-top:auto;font-size:14px;letter-spacing:.14em;text-transform:uppercase;padding:12px 4px;color:var(--rose)}\n@media (max-width:767px){section{padding:72px 0}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "offerings-blessing",
+  "label": "Blessing Ceremonies",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small label"
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "chips": {
+      "kind": "list",
+      "label": "Chips",
+      "fields": {
+        "heading": {
+          "kind": "text",
+          "label": "Heading"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text"
+        }
+      },
+      "max": 100,
+      "itemLabel": "heading"
+    },
+    "price": {
+      "kind": "text",
+      "label": "Price"
+    },
+    "cta": {
+      "kind": "link",
+      "label": "Button goes to"
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Button text"
+    },
+    "photo": {
+      "kind": "image",
+      "label": "Picture"
+    }
+  },
+  "defaults": {
+    "eyebrow": "ii. Prayer · Ritual · Threshold",
+    "heading": "Blessing Ceremonies",
+    "text": "Some moments deserve to be marked. With flowers, prayer and intention, we honor the threshold you're standing at — and surround you with love as you cross it.",
+    "chips": [
+      {
+        "heading": "Baby showers",
+        "text": "Blessings for mother and the little one on the way"
+      },
+      {
+        "heading": "Birthdays",
+        "text": "Prayers and intentions for a new year of life"
+      },
+      {
+        "heading": "Energetic reset",
+        "text": "Clearing, prayer and support to come back to calm"
+      }
+    ],
+    "price": "Shaped to your gathering — just ask",
+    "cta": {
+      "type": "page",
+      "page": "pg_w7x30r0gm8"
+    },
+    "ctaLabel": "Plan a blessing",
+    "photo": {
+      "src": "media/2026/11/blessing-yk0w.jpg",
+      "alt": "Courtney offering a blessing among red silk and roses",
+      "width": 6,
+      "height": 10,
+      "mediaId": "med_yk0wxgntm4"
+    }
+  },
+  "template": "<section class=\"bg-blush i-blessing\"> <div class=\"wrap split reverse\"> <div class=\"copy\"> <p class=\"eyebrow s-1\">{{eyebrow}}</p> <h2>{{heading}}</h2> <p>{{text}}</p> <div class=\"chips\"> {{#each chips}}<div class=\"chip\"><h3>{{heading}}</h3><p>{{text}}</p></div>{{/each}} </div> <p class=\"price\">{{price}}</p> <p><a href=\"{{href cta}}\" class=\"btn btn-rose\">{{ctaLabel}}</a></p> </div> <div class=\"media arch rose\">{{image photo class=\"os-ci\"}}</div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--card:var(--os-color-surface);--blush:#F7E9EE;--rose:var(--os-color-accent);--rose-deep:#7E2149;--gold:#C9A04E;--line-rose:#E8C7D4;--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n[class~=\"os-ci\"]{max-width:100%;display:block}\nimg{display:block}\na{color:var(--teal)}\na:hover{color:var(--rose)}\nh2,h3{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.eyebrow{font-size:14px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:400}\n.btn{display:inline-block;text-decoration:none;padding:17px 32px;min-height:44px;border-radius:999px;font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:400}\n.btn-rose{background:var(--rose);color:#fff}\n.btn:hover{opacity:.92}\nsection{padding:100px 0}\n.split{display:flex;flex-wrap:wrap;gap:64px;align-items:center}\n.split.reverse{flex-wrap:wrap-reverse}\n.split > .media{flex:1 1 340px;max-width:480px;margin:0 auto}\n.split > .copy{flex:1 1 400px;display:flex;flex-direction:column;gap:20px}\n.arch [class~=\"os-ci\"]{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px}\n.arch img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px;outline:1px solid var(--gold);outline-offset:12px}\n.arch.rose img{outline-color:rgba(163,48,95,.5)}\n.copy h2{font-size:clamp(38px,4vw,56px)}\n.price{font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);font-weight:400}\n.bg-blush{background:radial-gradient(ellipse 50% 60% at 80% 50%,rgba(163,48,95,.12),rgba(163,48,95,0) 70%),var(--blush)}\n.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}\n.chip{background:var(--card);border:1px solid var(--line-rose);border-radius:16px;padding:20px}\n.chip h3{font-size:25px;font-weight:500;color:var(--rose-deep)}\n.chip p{font-size:15px;line-height:1.6;color:#3E3036}\n@media (max-width:767px){section{padding:72px 0}}\n@media (max-width:767px){.split{gap:44px}}\n:scope:scope:scope .s-1{color:var(--rose-deep)}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

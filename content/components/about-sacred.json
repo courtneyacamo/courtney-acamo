@@ -1,0 +1,53 @@
+{
+  "name": "about-sacred",
+  "label": "What I hold sacred",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "heading2": {
+      "kind": "text",
+      "label": "Heading 2"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text"
+    },
+    "heading3": {
+      "kind": "text",
+      "label": "Heading 3"
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Text 2"
+    },
+    "goldText": {
+      "kind": "text",
+      "label": "Gold text"
+    },
+    "text3": {
+      "kind": "text",
+      "label": "Text 3"
+    }
+  },
+  "defaults": {
+    "heading": "What I hold sacred",
+    "heading2": "Earth",
+    "text": "Grounding the body, honoring the seasons and letting nature teach us to slow down.",
+    "heading3": "Spirit",
+    "text2": "Prayer, intuition and the unseen — the light that moves through every ceremony.",
+    "goldText": "Voice",
+    "text3": "Sound as medicine. Every person deserves to be heard — first of all by themselves."
+  },
+  "template": "<section class=\"bg-sand i-sacred\"> <div class=\"wrap\"> <div class=\"center\"><h2>{{heading}}</h2></div> <div class=\"pillars\"> <div class=\"pillar\"><h3>{{heading2}}</h3><p>{{text}}</p></div> <div class=\"pillar rose\"><h3>{{heading3}}</h3><p>{{text2}}</p></div> <div class=\"pillar night\"><h3 class=\"gold-text\">{{goldText}}</h3><p>{{text3}}</p></div> </div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--sand:#F5EEE2;--card:var(--os-color-surface);--blush:#F7E9EE;--rose-deep:#7E2149;--line-gold:var(--os-color-border);--line-rose:#E8C7D4;--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2,h3{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.gold-text{background:linear-gradient(100deg,#B8862E 0%,#F6E2A8 38%,#D8B160 60%,#9E7425 100%);-webkit-background-clip:text;background-clip:text;color:transparent}\nsection{padding:100px 0}\n.center{text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}\n.center h2{font-size:clamp(40px,5vw,64px)}\n.bg-sand{background:radial-gradient(ellipse 55% 45% at 50% 0%,rgba(240,200,110,.18),rgba(240,200,110,0) 70%),var(--sand)}\n.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin-top:48px}\n.pillar{border-radius:200px 200px 24px 24px;padding:64px 32px 40px;background:var(--card);border:1px solid var(--line-gold);text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}\n.pillar h3{font-size:32px;font-weight:500}\n.pillar p{font-size:17px}\n.pillar.rose{background:var(--blush);border-color:var(--line-rose)}\n.pillar.rose h3{color:var(--rose-deep)}\n.pillar.night{background:linear-gradient(180deg,#0B2B2E,#071F22);border:0}\n.pillar.night p{color:#D9ECEA}\n@media (max-width:767px){section{padding:72px 0}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

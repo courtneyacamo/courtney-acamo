@@ -1,0 +1,66 @@
+{
+  "name": "journey",
+  "label": "How we'll walk together",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small label"
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "journeyItems": {
+      "kind": "list",
+      "label": "Journey items",
+      "fields": {
+        "num": {
+          "kind": "text",
+          "label": "Num"
+        },
+        "heading": {
+          "kind": "text",
+          "label": "Heading"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text",
+          "multiline": true
+        }
+      },
+      "max": 100,
+      "itemLabel": "num"
+    }
+  },
+  "defaults": {
+    "eyebrow": "The journey",
+    "heading": "How we'll walk together",
+    "journeyItems": [
+      {
+        "num": "i.",
+        "heading": "Connect",
+        "text": "Reach out and share what you're longing for. We'll find the offering that meets you where you are."
+      },
+      {
+        "num": "ii.",
+        "heading": "Ceremony",
+        "text": "We gather in a held, intentional space — with tea, prayer, touch or sound — and let the work unfold."
+      },
+      {
+        "num": "iii.",
+        "heading": "Integrate",
+        "text": "You leave with gentle practices to carry the new frequency into your everyday life."
+      }
+    ]
+  },
+  "template": "<section class=\"i-journey\"> <div class=\"wrap\"> <div class=\"center\"> <p class=\"eyebrow\">{{eyebrow}}</p> <h2>{{heading}}</h2> </div> <div class=\"journey\"> {{#each journeyItems}}<div><span class=\"num gold-text\">{{num}}</span><h3>{{heading}}</h3><p>{{text}}</p></div>{{/each}} </div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--ink-soft:#2D4F51;--teal:#0F5457;--rose:var(--os-color-accent);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2,h3{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.gold-text{background:linear-gradient(100deg,#B8862E 0%,#F6E2A8 38%,#D8B160 60%,#9E7425 100%);-webkit-background-clip:text;background-clip:text;color:transparent}\n.eyebrow{font-size:14px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:400}\nsection{padding:100px 0}\n.center{text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}\n.center h2{font-size:clamp(40px,5vw,64px)}\n.journey{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:44px;margin-top:48px}\n.journey > div{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center}\n.journey .num{font-family:var(--serif);font-size:68px;line-height:1}\n.journey h3{font-size:28px;font-weight:500}\n.journey p{font-size:17px;color:var(--ink-soft)}\n@media (max-width:767px){section{padding:72px 0}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

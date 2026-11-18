@@ -1,0 +1,86 @@
+{
+  "name": "offerings-healing",
+  "label": "Intuitive Healing Sessions",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "photo": {
+      "kind": "image",
+      "label": "Picture"
+    },
+    "eyebrow": {
+      "kind": "text",
+      "label": "Small label"
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "ticks": {
+      "kind": "list",
+      "label": "Ticks",
+      "fields": {
+        "item": {
+          "kind": "text",
+          "label": "Item"
+        }
+      },
+      "max": 100,
+      "itemLabel": "item"
+    },
+    "price": {
+      "kind": "text",
+      "label": "Price"
+    },
+    "cta": {
+      "kind": "link",
+      "label": "Button goes to"
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Button text"
+    }
+  },
+  "defaults": {
+    "photo": {
+      "src": "media/2026/11/eyes-closed-a7k5.jpg",
+      "alt": "Courtney with eyes closed and her hand on her heart",
+      "width": 8,
+      "height": 10,
+      "mediaId": "med_a7k5k298bg"
+    },
+    "eyebrow": "iii. Listen · Release · Restore",
+    "heading": "Intuitive Healing Sessions",
+    "text": "A one-on-one session that follows what your body and spirit are asking for. We slow down, breathe, listen and gently move what's ready to move — so your nervous system can soften and you can feel like yourself again.",
+    "ticks": [
+      {
+        "item": "Online, in my Boulder space, or at your home in Boulder"
+      },
+      {
+        "item": "Breath, sound, touch and intuitive guidance"
+      },
+      {
+        "item": "Simple practices to take home with you"
+      }
+    ],
+    "price": "90 minutes · $150 ✦ $175 at your home",
+    "cta": {
+      "type": "page",
+      "page": "pg_w7x30r0gm8"
+    },
+    "ctaLabel": "Book a healing"
+  },
+  "template": "<section class=\"i-healing\"> <div class=\"wrap split\"> <div class=\"media arch\">{{image photo class=\"os-ci\"}}</div> <div class=\"copy\"> <p class=\"eyebrow\">{{eyebrow}}</p> <h2>{{heading}}</h2> <p>{{text}}</p> <ul class=\"ticks\"> {{#each ticks}}<li>{{item}}</li>{{/each}} </ul> <p class=\"price\">{{price}}</p> <p><a href=\"{{href cta}}\" class=\"btn btn-teal\">{{ctaLabel}}</a></p> </div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--rose:var(--os-color-accent);--gold:#C9A04E;--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n[class~=\"os-ci\"]{max-width:100%;display:block}\nimg{display:block}\na{color:var(--teal)}\na:hover{color:var(--rose)}\nh2{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.eyebrow{font-size:14px;letter-spacing:.34em;text-transform:uppercase;color:var(--rose);font-weight:400}\n.btn{display:inline-block;text-decoration:none;padding:17px 32px;min-height:44px;border-radius:999px;font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:400}\n.btn-teal{background:var(--teal);color:#fff}\n.btn:hover{opacity:.92}\nsection{padding:100px 0}\n.split{display:flex;flex-wrap:wrap;gap:64px;align-items:center}\n.split > .media{flex:1 1 340px;max-width:480px;margin:0 auto}\n.split > .copy{flex:1 1 400px;display:flex;flex-direction:column;gap:20px}\n.arch [class~=\"os-ci\"]{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px}\n.arch img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:300px 300px 24px 24px;outline:1px solid var(--gold);outline-offset:12px}\n.copy h2{font-size:clamp(38px,4vw,56px)}\n.ticks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:17px}\n.ticks li{display:flex;gap:14px}\n.ticks li::before{content:\"\\2726\";color:var(--gold)}\n.price{font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);font-weight:400}\n@media (max-width:767px){section{padding:72px 0}}\n@media (max-width:767px){.split{gap:44px}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

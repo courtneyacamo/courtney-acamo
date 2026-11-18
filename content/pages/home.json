@@ -1,0 +1,551 @@
+{
+  "id": "pg_f9syzf0gc4",
+  "title": "Remember the wellspring within",
+  "slug": "",
+  "seo": {
+    "title": "Courtney Acamo — Ceremony, Healing & Voice in Boulder",
+    "description": "Tea ceremonies, blessing ceremonies, intuitive healing and vocal empowerment with Courtney Acamo, in Boulder, Colorado and online."
+  },
+  "sections": [
+    {
+      "id": "sec_2h7zs5zpf1",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_vrbx8jyprq",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Courtney Acamo"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Home Offerings About Book a session"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_m7tv0pr0rh",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_pa58dz04t9",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ceremony · Healing · Voice"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 1
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Remember the wellspring within"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "come home to your soul essence"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ceremony, sound and intuitive healing to help your body settle, your spirit brighten and your voice rise. In Boulder, Colorado and online."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "blk_3gccg2fmry",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Enter the offerings",
+            "link": {
+              "type": "page",
+              "page": "pg_f9syzf0gc4"
+            },
+            "role": "primary"
+          }
+        },
+        {
+          "id": "blk_pw09asv596",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Book a session",
+            "link": {
+              "type": "page",
+              "page": "pg_f9syzf0gc4"
+            },
+            "role": "secondary"
+          }
+        },
+        {
+          "id": "blk_wb60daax34",
+          "type": "image",
+          "v": 1,
+          "fields": {
+            "image": {
+              "src": "media/2026/11/sunset-prayer-1rrb.jpg",
+              "alt": "Courtney with arms raised in prayer at sunset by the ocean",
+              "width": 10,
+              "height": 10,
+              "mediaId": "med_1rrb2fkjc9"
+            },
+            "aspect": "original",
+            "lightbox": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1argazt69t",
+      "preset": "component/hello@1",
+      "label": "Hi, I'm Courtney",
+      "anchor": "hello",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_611t6m4y1h",
+          "type": "component/hello",
+          "v": 1,
+          "fields": {
+            "photo": {
+              "src": "media/2026/11/hand-on-heart-4rpe.jpg",
+              "alt": "Courtney smiling by the ocean with her hand on her heart",
+              "width": 10,
+              "height": 8,
+              "mediaId": "med_4rpez9p0zg"
+            },
+            "script": "welcome, dear one",
+            "heading": "Hi, I'm Courtney",
+            "paragraphs": [
+              {
+                "text": "I hold space for the moments when you need to slow down and come back to yourself — through the ritual of tea, prayers for life's thresholds, intuitive healing and the medicine of your own voice."
+              },
+              {
+                "text": "Every gathering is shaped around what you're carrying and what you're calling in."
+              }
+            ],
+            "cta": {
+              "type": "page",
+              "page": "pg_ay78ys0v76"
+            },
+            "ctaLabel": "More about me"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_yr2jn84svm",
+      "preset": "component/offerings@1",
+      "label": "Ways we can gather",
+      "anchor": "offerings",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_9jdcf98z31",
+          "type": "component/offerings",
+          "v": 1,
+          "fields": {
+            "eyebrow": "Offerings",
+            "heading": "Ways we can gather",
+            "cards": [
+              {
+                "photo": {
+                  "src": "media/2026/11/tea-bowl-s8sx.jpg",
+                  "alt": "Hands holding a ceramic tea bowl beside yellow yarrow flowers",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_s8sx5v241h"
+                },
+                "heading": "Tea Ceremonies",
+                "text": "Leaf, water and quiet. A slow ritual to arrive, settle and listen inward.",
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e",
+                  "anchor": "tea"
+                },
+                "urlLabel": "Learn more"
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/blessing-yk0w.jpg",
+                  "alt": "Courtney offering a blessing among red silk and roses",
+                  "width": 6,
+                  "height": 10,
+                  "mediaId": "med_yk0wxgntm4"
+                },
+                "heading": "Blessing Ceremonies",
+                "text": "Prayer and ritual for baby showers, birthdays and fresh starts — or a simple energetic reset.",
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e",
+                  "anchor": "blessing"
+                },
+                "urlLabel": "Learn more"
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/prayer-hands-d84v.jpg",
+                  "alt": "Courtney with her hands together in prayer",
+                  "width": 10,
+                  "height": 8,
+                  "mediaId": "med_d84v32rtzc"
+                },
+                "heading": "Intuitive Healing",
+                "text": "One-on-one sessions to calm your system, let go of what's heavy and hear your own knowing again.",
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e",
+                  "anchor": "healing"
+                },
+                "urlLabel": "Learn more"
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/moon-circle-82d5.jpg",
+                  "alt": "A circle of women in white raising their arms under the full moon",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_82d5gs046b"
+                },
+                "heading": "Vocal Empowerment",
+                "text": "Breath, sound and play to free your voice — in song, in speech, in life.",
+                "url": {
+                  "type": "page",
+                  "page": "pg_2f6zk4nw6e",
+                  "anchor": "voice"
+                },
+                "urlLabel": "Learn more"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_b3d5zqdqje",
+      "preset": "component/invitation@1",
+      "label": "Invitation",
+      "anchor": "invitation",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_edy9qj41aw",
+          "type": "component/invitation",
+          "v": 1,
+          "fields": {
+            "goldText": "“Every cup, every prayer, every note is an invitation to soften — and to remember the light you already carry.”",
+            "script": "Courtney"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_z1vchxkte6",
+      "preset": "component/journey@1",
+      "label": "How we'll walk together",
+      "anchor": "journey",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_2ahgekehee",
+          "type": "component/journey",
+          "v": 1,
+          "fields": {
+            "eyebrow": "The journey",
+            "heading": "How we'll walk together",
+            "journeyItems": [
+              {
+                "num": "i.",
+                "heading": "Connect",
+                "text": "Reach out and share what you're longing for. We'll find the offering that meets you where you are."
+              },
+              {
+                "num": "ii.",
+                "heading": "Ceremony",
+                "text": "We gather in a held, intentional space — with tea, prayer, touch or sound — and let the work unfold."
+              },
+              {
+                "num": "iii.",
+                "heading": "Integrate",
+                "text": "You leave with gentle practices to carry the new frequency into your everyday life."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_6dmbzpgb2t",
+      "preset": "component/moments@1",
+      "label": "Moments",
+      "anchor": "moments",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_00fr7xp3a6",
+          "type": "component/moments",
+          "v": 1,
+          "fields": {
+            "script": "moments from the circle",
+            "galleryItems": [
+              {
+                "photo": {
+                  "src": "media/2026/11/tea-circle-gzbn.jpg",
+                  "alt": "A tea circle gathered around a candlelit altar",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_gzbna1gph1"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/fire-circle-s3cg.jpg",
+                  "alt": "Friends gathered around a beach fire at dusk",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_s3cg7r2c7a"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/embrace-x6w1.jpg",
+                  "alt": "Two women in a long embrace after ceremony",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_x6w1k1szsy"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/ceremony-room-nb3n.jpg",
+                  "alt": "A candlelit ceremony room with sheepskins and cushions",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_nb3n16c5v8"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/underwater-teh4.jpg",
+                  "alt": "Two women in flowing white fabric underwater",
+                  "width": 10,
+                  "height": 7,
+                  "mediaId": "med_teh4qrvzgk"
+                }
+              },
+              {
+                "photo": {
+                  "src": "media/2026/11/golden-light-qdhv.jpg",
+                  "alt": "Courtney seen from behind in golden sunset light",
+                  "width": 8,
+                  "height": 10,
+                  "mediaId": "med_qdhvk3adg0"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_khmn1b182r",
+      "preset": "component/letters@1",
+      "label": "Letters from the stillness",
+      "anchor": "letters",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_ak91agbra0",
+          "type": "component/letters",
+          "v": 1,
+          "fields": {
+            "heading": "Letters from the stillness",
+            "text": "Upcoming ceremonies, moon notes and small practices to keep your frequency bright."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_e2aqzgd450",
+      "preset": "starter/stack-12@1",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        }
+      },
+      "style": {
+        "colorTheme": "light"
+      },
+      "blocks": [
+        {
+          "id": "blk_p57ys0atpa",
+          "type": "newsletter",
+          "v": 1,
+          "fields": {
+            "askName": false,
+            "placeholder": "you@example.com",
+            "buttonLabel": "Join",
+            "successMessage": "Almost there — check your inbox to confirm your subscription."
+          },
+          "variant": "stacked"
+        }
+      ]
+    }
+  ]
+}

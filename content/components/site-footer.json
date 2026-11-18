@@ -1,0 +1,86 @@
+{
+  "name": "site-footer",
+  "label": "Footer",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "name": {
+      "kind": "text",
+      "label": "Name"
+    },
+    "script": {
+      "kind": "text",
+      "label": "Script"
+    },
+    "links": {
+      "kind": "list",
+      "label": "Links",
+      "fields": {
+        "url": {
+          "kind": "link",
+          "label": "Link"
+        },
+        "urlLabel": {
+          "kind": "text",
+          "label": "Link text"
+        }
+      },
+      "max": 100,
+      "itemLabel": "urlLabel"
+    },
+    "legal": {
+      "kind": "text",
+      "label": "Legal"
+    }
+  },
+  "defaults": {
+    "name": "Courtney Acamo",
+    "script": "rooted in earth, open to light",
+    "links": [
+      {
+        "url": {
+          "type": "page",
+          "page": "pg_2f6zk4nw6e"
+        },
+        "urlLabel": "Offerings"
+      },
+      {
+        "url": {
+          "type": "page",
+          "page": "pg_ay78ys0v76"
+        },
+        "urlLabel": "About"
+      },
+      {
+        "url": {
+          "type": "page",
+          "page": "pg_w7x30r0gm8"
+        },
+        "urlLabel": "Book"
+      },
+      {
+        "url": {
+          "type": "url",
+          "url": "https://www.instagram.com/courtneyacamo"
+        },
+        "urlLabel": "Instagram"
+      },
+      {
+        "url": {
+          "type": "url",
+          "url": "https://open.spotify.com/artist/5FqhYVXpMAaaJbwcFWSXhf"
+        },
+        "urlLabel": "Spotify"
+      }
+    ],
+    "legal": "© 2026 Courtney Acamo · Boulder, Colorado & online"
+  },
+  "template": "<footer class=\"site-footer\"> <div class=\"wrap\"> <div><p class=\"name gold-text\">{{name}}</p><p class=\"script\">{{script}}</p></div> <nav aria-label=\"Footer\"> {{#each links}}<a href=\"{{href url}}\">{{urlLabel}}</a>{{/each}} </nav> </div> <p class=\"wrap legal\">{{legal}}</p> </footer>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--night:#071F22;--rose:var(--os-color-accent);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif;--script:'Pinyon Script', cursive}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\na{color:var(--teal)}\na:hover{color:var(--rose)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.gold-text{background:linear-gradient(100deg,#B8862E 0%,#F6E2A8 38%,#D8B160 60%,#9E7425 100%);-webkit-background-clip:text;background-clip:text;color:transparent}\n.script{font-family:var(--script);color:var(--rose);line-height:1.1}\n.site-footer{background:radial-gradient(ellipse 40% 80% at 50% 0%,rgba(240,200,110,.16),rgba(240,200,110,0) 70%),var(--night);color:#D9ECEA;padding:64px 0 40px}\n.site-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px}\n.site-footer .name{font-family:var(--serif);font-size:30px}\n.site-footer .script{font-size:26px;color:#F2B8CF}\n.site-footer nav{display:flex;flex-wrap:wrap;gap:6px 24px;font-size:14px;letter-spacing:.14em;text-transform:uppercase}\n.site-footer nav a{color:#D9ECEA;text-decoration:none;padding:12px 0}\n.site-footer .legal{font-size:14px;color:#A9C9C6;margin-top:36px}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

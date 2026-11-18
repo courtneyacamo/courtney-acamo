@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "brand": {
+    "name": "Courtney Acamo"
+  },
+  "tokens": {
+    "colors": {
+      "ink": {
+        "value": "#1e3b3d",
+        "role": "text"
+      },
+      "ink-soft": {
+        "value": "#2d4f51"
+      },
+      "teal": {
+        "value": "#0f5457"
+      },
+      "night": {
+        "value": "#071f22"
+      },
+      "night-2": {
+        "value": "#0b2b2e"
+      },
+      "cream": {
+        "value": "#fbf8f1",
+        "role": "background"
+      },
+      "sand": {
+        "value": "#f5eee2"
+      },
+      "card": {
+        "value": "#fffdf8",
+        "role": "surface"
+      },
+      "blush": {
+        "value": "#f7e9ee"
+      },
+      "rose": {
+        "value": "#a3305f",
+        "role": "brand"
+      },
+      "rose-deep": {
+        "value": "#7e2149"
+      },
+      "rose-soft": {
+        "value": "#e8a3be"
+      },
+      "gold": {
+        "value": "#c9a04e"
+      },
+      "gold-light": {
+        "value": "#f0d79a"
+      },
+      "line-gold": {
+        "value": "#e2cfa0",
+        "role": "border"
+      },
+      "line-rose": {
+        "value": "#e8c7d4"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "google": true
+      },
+      "body": {
+        "family": "Jost",
+        "google": true
+      }
+    },
+    "type": {
+      "wordmark": {
+        "size": 26,
+        "letterSpacing": 0.06,
+        "weight": 500,
+        "font": "heading"
+      },
+      "button": {
+        "size": 15,
+        "letterSpacing": 0.14,
+        "weight": 400,
+        "case": "uppercase"
+      }
+    }
+  },
+  "rules": [
+    "The page's own sections were brought across as designer components: keep their look, edit their fields.",
+    "New sections: use the colours and fonts above through Site Styles (var(--os-color-…), var(--os-font-…))."
+  ],
+  "mapping": {
+    "notes": [
+      "Read your page’s styles: 16 colours, its fonts (Jost, Cormorant Garamond, Pinyon Script) and 2 text styles.",
+      "Your brand colour #a3305f leads the palette (buttons, links and accents).",
+      "Dark sections use your #1e3b3d as the ground with #fbf8f1 text.",
+      "Page background #fbf8f1, text #1e3b3d.",
+      "Your fonts (Cormorant Garamond, Jost) are used as they are — free on Google Fonts and published with the site.",
+      "Text sizes kept: button 15px, wordmark 26px.",
+      "Body text contrast 11.3:1.",
+      "Your page's own colours and fonts were kept; the brand files you added are in the design system for Claude."
+    ],
+    "contrast": []
+  },
+  "components": {
+    "hello": {
+      "purpose": "Hi, I'm Courtney (from the / page)",
+      "source": "page.zip"
+    },
+    "offerings": {
+      "purpose": "Ways we can gather (from the / page)",
+      "source": "page.zip"
+    },
+    "invitation": {
+      "purpose": "Invitation (from the / page)",
+      "source": "page.zip"
+    },
+    "journey": {
+      "purpose": "How we'll walk together (from the / page)",
+      "source": "page.zip"
+    },
+    "moments": {
+      "purpose": "Moments (from the / page)",
+      "source": "page.zip"
+    },
+    "letters": {
+      "purpose": "Letters from the stillness (from the / page)",
+      "source": "page.zip"
+    },
+    "offerings-temple": {
+      "purpose": "Ceremonies for the body, the spirit &… (from the /offerings page)",
+      "source": "page.zip"
+    },
+    "offerings-tea": {
+      "purpose": "Tea Ceremonies (from the /offerings page)",
+      "source": "page.zip"
+    },
+    "offerings-blessing": {
+      "purpose": "Blessing Ceremonies (from the /offerings page)",
+      "source": "page.zip"
+    },
+    "offerings-healing": {
+      "purpose": "Intuitive Healing Sessions (from the /offerings page)",
+      "source": "page.zip"
+    },
+    "offerings-reach-out": {
+      "purpose": "Not sure which is right for you? (from the /offerings page)",
+      "source": "page.zip"
+    },
+    "about-temple": {
+      "purpose": "Hello, I'm Courtney (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-glimpses": {
+      "purpose": "Glimpses (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-sacred": {
+      "purpose": "What I hold sacred (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-sit-with-me": {
+      "purpose": "Sit with me (from the /about page)",
+      "source": "page.zip"
+    },
+    "book-temple": {
+      "purpose": "Let's begin with a gentle hello (from the /book page)",
+      "source": "page.zip"
+    },
+    "book-book": {
+      "purpose": "Send a note (from the /book page)",
+      "source": "page.zip"
+    },
+    "site-footer": {
+      "purpose": "Footer (from the footer)",
+      "source": "page.zip"
+    }
+  },
+  "sources": [
+    {
+      "kind": "html",
+      "name": "page.zip",
+      "format": "html",
+      "at": "2026-11-18T04:20:00.342Z"
+    }
+  ],
+  "updatedAt": "2026-11-18T04:20:00.342Z",
+  "brief": {
+    "about": "Courtney Acamo is a ceremonialist, healer and singer in Boulder, Colorado offering tea ceremonies, blessing ceremonies, intuitive healing sessions and vocal empowerment — in Boulder and online.",
+    "audience": "People seeking to slow down, heal and find their voice; they should explore the offerings and book a session or send a note.",
+    "feeling": [
+      "sacred",
+      "luminous",
+      "warm"
+    ],
+    "notes": "Pages: Home, Offerings, About, Book a Session. Design ported from her canvas (\"temple of earth & light\": deep turquoise night banners, gold lettering, rose accents, arched photos). Script accent font Pinyon Script. Sessions 90 min; healing/voice $150 ($175 at home); tea $40/person or $300 in-person group at home; blessings priced by gathering. No prices on the home page. Booking requests go to courtneyacamo@gmail.com; she replies within 2–4 days. Photos are temporary placeholders, to be replaced with her own."
+  }
+}

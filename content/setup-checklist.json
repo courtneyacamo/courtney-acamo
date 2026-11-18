@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "source": "import",
+  "from": "the original site",
+  "items": [
+    {
+      "id": "forms-email",
+      "kind": "forms-email",
+      "title": "Get form messages by email",
+      "detail": "1 form(s) came across. Messages are kept in OpenSpace; choose where to get an email when someone writes.",
+      "where": [
+        "/book"
+      ],
+      "count": 1,
+      "status": "todo"
+    },
+    {
+      "id": "newsletter",
+      "kind": "newsletter",
+      "title": "Bring your newsletter subscribers",
+      "detail": "Sign-up forms came across, and new sign-ups are kept for you in OpenSpace. Your old site didn't keep a subscriber list itself: if its form sent sign-ups to an email service (like Mailchimp or Buttondown), download the list there and add it in Inbox → Subscribers → Import.",
+      "where": [
+        "/"
+      ],
+      "status": "todo"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "hello",
+  "label": "Hi, I'm Courtney",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "photo": {
+      "kind": "image",
+      "label": "Picture"
+    },
+    "script": {
+      "kind": "text",
+      "label": "Script"
+    },
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "paragraphs": {
+      "kind": "list",
+      "label": "Paragraphs",
+      "fields": {
+        "text": {
+          "kind": "text",
+          "label": "Text",
+          "multiline": true
+        }
+      },
+      "max": 100,
+      "itemLabel": "text"
+    },
+    "cta": {
+      "kind": "link",
+      "label": "Button goes to"
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Button text"
+    }
+  },
+  "defaults": {
+    "photo": {
+      "src": "media/2026/11/hand-on-heart-4rpe.jpg",
+      "alt": "Courtney smiling by the ocean with her hand on her heart",
+      "width": 10,
+      "height": 8,
+      "mediaId": "med_4rpez9p0zg"
+    },
+    "script": "welcome, dear one",
+    "heading": "Hi, I'm Courtney",
+    "paragraphs": [
+      {
+        "text": "I hold space for the moments when you need to slow down and come back to yourself — through the ritual of tea, prayers for life's thresholds, intuitive healing and the medicine of your own voice."
+      },
+      {
+        "text": "Every gathering is shaped around what you're carrying and what you're calling in."
+      }
+    ],
+    "cta": {
+      "type": "page",
+      "page": "pg_ay78ys0v76"
+    },
+    "ctaLabel": "More about me"
+  },
+  "template": "<section class=\"i-hello\"> <div class=\"wrap split\"> <div class=\"media rounded\">{{image photo class=\"os-ci s-1\"}}</div> <div class=\"copy\"> <p class=\"script\">{{script}}</p> <h2>{{heading}}</h2> {{#each paragraphs}}<p>{{text}}</p>{{/each}} <p><a href=\"{{href cta}}\" class=\"btn btn-line-rose\">{{ctaLabel}}</a></p> </div> </div> </section>",
+  "css": ":scope{--ink:var(--os-color-text);--teal:#0F5457;--rose:var(--os-color-accent);--serif:'Cormorant Garamond', Georgia, serif;--sans:'Jost', system-ui, sans-serif;--script:'Pinyon Script', cursive}\n:scope{color:var(--ink);font-family:var(--sans);font-weight:300;font-size:18px;line-height:1.75}\n@media (max-width:767px){:scope{font-size:17px}}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\n[class~=\"os-ci\"]{max-width:100%;display:block}\nimg{display:block}\na{color:var(--teal)}\na:hover{color:var(--rose)}\nh2{font-family:var(--serif);font-weight:300;margin:0;line-height:1.08;color:var(--teal)}\np{margin:0}\n.wrap{max-width:1200px;margin:0 auto;padding:0 24px}\n.script{font-family:var(--script);color:var(--rose);line-height:1.1}\n.btn{display:inline-block;text-decoration:none;padding:17px 32px;min-height:44px;border-radius:999px;font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:400}\n.btn-line-rose{border:1px solid var(--rose);color:var(--rose)}\n.btn:hover{opacity:.92}\nsection{padding:100px 0}\n.split{display:flex;flex-wrap:wrap;gap:64px;align-items:center}\n.split > .media{flex:1 1 340px;max-width:480px;margin:0 auto}\n.split > .copy{flex:1 1 400px;display:flex;flex-direction:column;gap:20px}\n.rounded [class~=\"os-ci\"]{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px}\n.rounded img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px;outline:1px solid rgba(163,48,95,.45);outline-offset:12px}\n.copy h2{font-size:clamp(38px,4vw,56px)}\n.copy .script{font-size:40px}\n@media (max-width:767px){section{padding:72px 0}}\n@media (max-width:767px){.split{gap:44px}}\n:scope:scope:scope .s-1{object-position:30% center}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}
